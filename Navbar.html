@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <title>Navigation Bar</title>
+   <style type="text/css">
+       .a{
+        padding-right: 5%;
+        padding-left: 5%;
+       }
+   </style>
+</head>
+<body>
+
+    <center>
+            <h2 class="header  red-text text-lighten-1">Navigation Bar</h2>
+    </center>
+        <nav>
+            <div class="nav-wrapper red lighten-1 a">
+              <a href="#" class="brand-logo"><i class="large material-icons">adb</i>HunterXHunter</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Gon</a></li>
+                <li><a href="#">Killua</a></li>
+                <li><a href="#">Kurapika</a></li>
+                <li><a href="#">Leorio</a></li>
+              </ul>
+            </div>
+        </nav>
+
+    <script>
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });   
+    </script>
+</body>
+</html>
